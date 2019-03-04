@@ -87,3 +87,29 @@
     margin-left: -110px;
 
 }
+
+.copyright {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  display: flex;
+}
+
+.copy {
+    left: 0;
+    flex: 40%;
+    margin-right: 0;
+}
+
+.mad {
+    right: 0;
+    flex: 40%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 75%;
+
+}
