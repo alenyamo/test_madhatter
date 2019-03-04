@@ -1,3 +1,9 @@
+ul {
+  list-style-type: none;
+    align-items: center;
+}
+
+
 .social_image {
     height: 15px;
     width: auto;
@@ -22,7 +28,7 @@
 }
 
 .socialel {
-    margin-left:20px;
+    margin-left: 20px;
 
 }
 
@@ -88,6 +94,59 @@
 
 }
 
+.separator {
+ margin-top: 150px;
+ background-color: lightgrey;
+ border-top: 2px solid black;
+ height: 50px;
+ bottom: 150px;
+
+}
+
+.contacts {
+    font-size: 10px;
+    align-content: center;
+
+}
+
+.contact {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.footer_links {
+
+    width: 100%;
+    display: flex;
+    bottom: 100px;
+    position: fixed;
+}
+
+
+.looking, .living, .partnership {
+
+    flex: 13%;
+    font-size: 10px;
+}
+
+.london {
+    flex: 20%;
+    margin-left: -65px;
+}
+
+.subtitle-footer {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0;
+    margin-left: -20px;
+
+}
+
+.corporate, .media, .careers, .contact {
+    flex: 10%;
+    font-size: 10px;
+}
+
 .copyright {
   position: fixed;
   left: 0;
@@ -101,8 +160,8 @@
 
 .copy {
     left: 0;
-    flex: 40%;
-    margin-right: 0;
+    flex: 45%;
+    margin-left: 20px;
 }
 
 .mad {
@@ -110,6 +169,6 @@
     flex: 40%;
     margin-top: 0;
     margin-right: 0;
-    margin-left: 75%;
+    margin-left: 40%;
 
 }
