@@ -94,6 +94,34 @@ ul {
 
 }
 
+.newbury {
+  background-color: lightgray;
+
+}
+
+.flex {
+        display: flex;
+
+}
+
+.shovel {
+    flex: 50%;
+
+}
+
+.message {
+    flex: 50%;
+
+}
+
+.details1 {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+
+
+}
+
 .separator {
  margin-top: 150px;
  background-color: lightgrey;
@@ -118,8 +146,7 @@ ul {
 
     width: 100%;
     display: flex;
-    bottom: 100px;
-    position: fixed;
+    bottom: 100px
 }
 
 
@@ -148,7 +175,7 @@ ul {
 }
 
 .copyright {
-  position: fixed;
+
   left: 0;
   bottom: 0;
   width: 100%;
