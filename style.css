@@ -219,6 +219,47 @@ Top-menu lines:
 }
 
 /*
+ News and Events:
+*/
+
+.news {
+  border-right: 2px gray;
+
+}
+
+.see_all {
+
+    background-color: blue;
+    color: white;
+    margin-bottom: 5%;
+
+}
+
+.piece {
+
+    flex: 25%;
+    box-shadow: 5px;
+}
+
+.topbar {
+    display: inline-block;
+}
+.calendar {
+ background-color: gray;
+ height: 100px;
+ width: 50px;
+ padding: 20px;
+    padding-top: 5px;
+
+}
+
+.details2 {
+
+    float: right;
+    color: gray;
+}
+
+/*
 
  Hours of people working
 
