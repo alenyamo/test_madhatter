@@ -28,6 +28,11 @@ input, select, textarea, button {
 
 }
 
+button {
+
+    height: 30px;
+}
+
 /*
 Classes and their properties
 
@@ -141,6 +146,37 @@ Top-menu lines:
  border-bottom: 4px solid blue;
  height: 50px;
  bottom: 150px;
+
+}
+
+
+.block {
+    flex: 26%;
+    color: white;
+
+}
+
+.look {
+    background-color: gray;
+    margin-left: 7.5%;
+
+}
+
+.live {
+    background-color: blue;
+
+}
+
+.partners {
+    margin-right: 7.5%;
+    background-color: gray;
+
+}
+
+.menu_text {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-size: 20px;
 }
 
 .second {
@@ -168,15 +204,11 @@ Top-menu lines:
 
 }
 
-.shovel {
+.shovel, .message, .news, .events, .contact_community, .hours {
     flex: 50%;
 
 }
 
-.message {
-    flex: 50%;
-
-}
 
 .details1 {
     margin-top: 100px;
@@ -192,18 +224,11 @@ Top-menu lines:
 
 */
 
-.hours {
-
-    flex:50%;
-}
 
 /*
 Form of sending a request
 
 */
-.contact_community {
-    flex: 50%;
-}
 
 .name {
     width: 80%;
@@ -312,7 +337,7 @@ Copyright part:
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: gray;
+  background-color: 	#404040;
   color: white;
   text-align: center;
   display: flex;
