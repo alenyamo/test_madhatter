@@ -1,13 +1,44 @@
+/*
+Welcome to comments!
+
+The whole file is devided on types, types are devided on the moment of appearence in html.
+
+First will go tags and their properties.
+
+*/
+
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
 ul {
   list-style-type: none;
     align-items: center;
 }
 
+img {
+    margin-right: 5px;
+}
 
+input, select, textarea, button {
+
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+
+/*
+Classes and their properties
+
+Header:
+
+Social media links and skip the content link(??):
+*/
 .social_image {
     height: 15px;
     width: auto;
-    margin-top: 5px;
+    margin-top: 6%;
 }
 
 
@@ -15,6 +46,7 @@ ul {
 
     float: left;
     font-size: 15px;
+    margin-top: 1%;
 
 }
 
@@ -62,19 +94,24 @@ ul {
   color: black;
 }
 
+/* Logo and Title: */
+
 .title {
 
     display: block;
     text-align: center;
     margin-top: 0;
-    margin-left: -120px;
+    margin-left: -4%;
     margin-bottom: 0;
 
 }
 
+.logo {
+     font-family: 'Roboto Condensed', sans-serif;
+}
 .city {
     display: block;
-    margin-left: auto;
+    margin-left: 42%;
     margin-right: auto;
     height: 150px;
     margin-bottom: 0;
@@ -90,12 +127,39 @@ ul {
     text-align: center;
     font-size: 18px;
     margin-top: 0;
-    margin-left: -110px;
+    margin-left: -2.5%;
 
 }
 
-.newbury {
+/*
+Top-menu lines:
+*/
+
+.first {
+
+ background-color: lightgrey;
+ border-bottom: 4px solid blue;
+ height: 50px;
+ bottom: 150px;
+}
+
+.second {
+    display: inline-block;
+    font-size: 10px;
+}
+
+.part{
+    margin-left: 3%;
+    flex: 11%;
+}
+/* Main:
+
+ Newbury:
+*/
+
+.newbury, .contact_form {
   background-color: lightgray;
+  padding-top: 20px;
 
 }
 
@@ -115,25 +179,90 @@ ul {
 }
 
 .details1 {
+    margin-top: 100px;
     background-color: blue;
     color: white;
-    border-radius: 5px;
 
 
 }
 
+/*
+
+ Hours of people working
+
+*/
+
+.hours {
+
+    flex:50%;
+}
+
+/*
+Form of sending a request
+
+*/
+.contact_community {
+    flex: 50%;
+}
+
+.name {
+    width: 80%;
+    height: 40px;
+}
+
+.address, .unit {
+    width: 39.4%;
+    height: 40px;
+}
+
+#community, #type, #urgency {
+    width: 26.5%;
+
+    height: 40px;
+}
+
+.description {
+    width: 80%;
+    height: 70px;
+}
+
+.submit {
+  margin-left: 60%;
+  margin-top: 10px;
+  background-color: blue;
+  color: white;
+}
+
+/*
+Just back to community button */
+
+.listings {
+    margin-top: 5%;
+    background-color: blue;
+  color: white;
+    margin-left: -5%;
+}
+
+/* Footer: */
+
 .separator {
  margin-top: 150px;
  background-color: lightgrey;
- border-top: 2px solid black;
+ border-top: 2px solid blue;
  height: 50px;
  bottom: 150px;
 
 }
 
+/*
+
+Contacts and links lists:
+
+*/
 .contacts {
     font-size: 10px;
     align-content: center;
+    margin-left: 110px;
 
 }
 
@@ -174,6 +303,10 @@ ul {
     font-size: 10px;
 }
 
+/*
+Copyright part:
+
+*/
 .copyright {
 
   left: 0;
