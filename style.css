@@ -224,6 +224,37 @@ Top-menu lines:
 
 */
 
+.box {
+    border: 2px solid blue;
+    margin: 10px;
+    background-color: white;
+    display: block;
+}
+
+
+
+.userpic {
+    border: 2px solid blue;
+    width: 150px;
+    height: auto;
+    margin-left: 5%;
+    margin-bottom: 5%;
+
+
+}
+
+.side_text {
+   float: right;
+   margin-right: 30%;
+}
+
+.nici {
+   margin-left: 10%;
+}
+
+.susan {
+    margin-top: -3%;
+}
 
 /*
 Form of sending a request
